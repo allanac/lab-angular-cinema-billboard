@@ -1,0 +1,24 @@
+<h2> Our Movies </h2>
+<div class="movie-container">
+
+
+<ul>
+  <li *ngFor="let oneMovie of movieThang.getMovies()">
+
+<div class="movie-list">
+  <h3> {{oneMovie.title}} </h3>
+  <img [src]='oneMovie.poster'>
+</div>
+
+  <div class="movie-text">
+  <p> Synopsis: {{oneMovie.synopsis}}</p>
+  <p> Year: {{ oneMovie.year}} </p>
+  <p>  Director: {{oneMovie.director}}</p>
+  <p> Actors: {{oneMovie.actors}}</p>
+  <p> Genre: {{oneMovie.genre}}</p>
+  <p> Show Times: {{oneMovie.hours}}</p>
+  <p> Theatre: {{oneMovie.room}}</p>
+</div>
+  </li>
+</ul>
+</div>

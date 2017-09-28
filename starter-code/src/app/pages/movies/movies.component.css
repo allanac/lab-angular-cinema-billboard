@@ -1,0 +1,20 @@
+ul {
+ list-style: none;
+}
+.movie-container {
+
+}
+.movie-list {
+  width: 300px;
+  float: left;
+  padding: 20px;
+}
+
+.movie-text {
+  width: 600px;
+
+}
+
+.movie-list img{
+  max-width:300px;
+}
